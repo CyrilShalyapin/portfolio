@@ -1,8 +1,8 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "../../globals.css";
+import '../../globals.css';
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: "Kiryl Shaliapin's portfolio",
@@ -13,16 +13,16 @@ export const metadata: Metadata = {
       type: 'image/x-icon',
       sizes: 'any',
       url: `/favicon.ico`,
-    }
-  ]
+    },
+  ],
 };
 
 export default function RootLayout({
   children,
-  params: {locale}
+  params: { locale },
 }: Readonly<{
   children: React.ReactNode;
-  params: {locale: string};
+  params: { locale: string };
 }>) {
   return (
     <html lang={locale}>
