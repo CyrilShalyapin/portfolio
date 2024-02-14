@@ -5,7 +5,11 @@ export default function Home() {
   const t = useTranslations();
   return (
     <main>
-      <h1 className='m-2 flex flex-col bg-red-600'>{t('main-page-title')}</h1>
+      <div className="w-screen h-screen bg-[url('/hero-landscape.jpg')] bg-cover">
+        <div className='w-screen flex items-center justify-center'>
+          <h2 className='text-[36px] text-[#616161] mt-[20%]'>𝕥𝕙𝕖 𝕟𝕒𝕥𝕦𝕣𝕖 𝕠𝕗 𝕔𝕠𝕕𝕖</h2>
+        </div>
+      </div>
     </main>
   );
 }

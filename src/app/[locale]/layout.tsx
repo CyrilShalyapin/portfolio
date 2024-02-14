@@ -14,6 +14,12 @@ export const metadata: Metadata = {
       sizes: 'any',
       url: `/favicon.ico`,
     },
+    {
+      rel: 'icon',
+      type: 'image/svg+xml',
+      sizes: '16x16 32x32',
+      url: `/favicon.svg`,
+    },
   ],
 };
 
