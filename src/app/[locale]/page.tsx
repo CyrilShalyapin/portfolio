@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { About, Experience, Navbar, Technologies } from '../../components';
+import { About, Contact, Experience, Navbar, Technologies } from '../../components';
 
 export default function Home() {
   const t = useTranslations();
@@ -14,6 +14,7 @@ export default function Home() {
       <About />
       <Technologies />
       <Experience />
+      <Contact />
     </main>
   );
 }
