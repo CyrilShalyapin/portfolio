@@ -17,6 +17,7 @@ export const Contact = () => {
   const {register} = useForm<FormFields>()
   return (
     <div className="p-[32px]">
+      <p>FORM</p>
       <form>
         <input type="text" {...register(FieldNames.FULLNAME)} />
         <input type="textarea" {...register(FieldNames.MESSAGE)} />
